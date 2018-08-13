@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BDB4E542119F2FE00F874FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E532119F2FE00F874FC /* AppDelegate.m */; };
+		0BDB4E572119F2FE00F874FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E562119F2FE00F874FC /* ViewController.m */; };
+		0BDB4E5A2119F2FE00F874FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB4E582119F2FE00F874FC /* Main.storyboard */; };
+		0BDB4E5C2119F2FF00F874FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB4E5B2119F2FF00F874FC /* Assets.xcassets */; };
+		0BDB4E5F2119F2FF00F874FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB4E5D2119F2FF00F874FC /* LaunchScreen.storyboard */; };
+		0BDB4E622119F2FF00F874FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E612119F2FF00F874FC /* main.m */; };
+		0BDB4E6C2119F2FF00F874FC /* LMComposeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E6B2119F2FF00F874FC /* LMComposeViewTests.m */; };
+		0BDB4E772119F2FF00F874FC /* LMComposeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E762119F2FF00F874FC /* LMComposeViewUITests.m */; };
+		0BDB4E862119F32900F874FC /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E852119F32900F874FC /* DemoController.m */; };
+		0BDB4E892119F40100F874FC /* LMComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E882119F40100F874FC /* LMComposeView.m */; };
+		0BDB4E8C2119F5BD00F874FC /* LMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E8B2119F5BD00F874FC /* LMTableView.m */; };
+		0BDB4E8F2119F5E200F874FC /* LMCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E8E2119F5E200F874FC /* LMCollectionView.m */; };
+		0BDB4E95211A009200F874FC /* UIView+LMViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB4E93211A009100F874FC /* UIView+LMViewHelper.m */; };
+		0BE1DF5E211EF07700D83D13 /* LMSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1DF5D211EF07700D83D13 /* LMSegmentView.m */; };
+		0BE1DF622121583F00D83D13 /* LMHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1DF612121583F00D83D13 /* LMHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BDB4E682119F2FF00F874FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BDB4E472119F2FD00F874FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BDB4E4E2119F2FE00F874FC;
+			remoteInfo = LMComposeView;
+		};
+		0BDB4E732119F2FF00F874FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BDB4E472119F2FD00F874FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BDB4E4E2119F2FE00F874FC;
+			remoteInfo = LMComposeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BDB4E4F2119F2FE00F874FC /* LMComposeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMComposeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDB4E522119F2FE00F874FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BDB4E532119F2FE00F874FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BDB4E552119F2FE00F874FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BDB4E562119F2FE00F874FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BDB4E592119F2FE00F874FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BDB4E5B2119F2FF00F874FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BDB4E5E2119F2FF00F874FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BDB4E602119F2FF00F874FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDB4E612119F2FF00F874FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BDB4E672119F2FF00F874FC /* LMComposeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMComposeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDB4E6B2119F2FF00F874FC /* LMComposeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMComposeViewTests.m; sourceTree = "<group>"; };
+		0BDB4E6D2119F2FF00F874FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDB4E722119F2FF00F874FC /* LMComposeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMComposeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDB4E762119F2FF00F874FC /* LMComposeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMComposeViewUITests.m; sourceTree = "<group>"; };
+		0BDB4E782119F2FF00F874FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDB4E842119F32900F874FC /* DemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
+		0BDB4E852119F32900F874FC /* DemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoController.m; sourceTree = "<group>"; };
+		0BDB4E872119F40100F874FC /* LMComposeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMComposeView.h; sourceTree = "<group>"; };
+		0BDB4E882119F40100F874FC /* LMComposeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMComposeView.m; sourceTree = "<group>"; };
+		0BDB4E8A2119F5BD00F874FC /* LMTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTableView.h; sourceTree = "<group>"; };
+		0BDB4E8B2119F5BD00F874FC /* LMTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTableView.m; sourceTree = "<group>"; };
+		0BDB4E8D2119F5E200F874FC /* LMCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMCollectionView.h; sourceTree = "<group>"; };
+		0BDB4E8E2119F5E200F874FC /* LMCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMCollectionView.m; sourceTree = "<group>"; };
+		0BDB4E93211A009100F874FC /* UIView+LMViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LMViewHelper.m"; sourceTree = "<group>"; };
+		0BDB4E94211A009200F874FC /* UIView+LMViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LMViewHelper.h"; sourceTree = "<group>"; };
+		0BE1DF5C211EF07700D83D13 /* LMSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSegmentView.h; sourceTree = "<group>"; };
+		0BE1DF5D211EF07700D83D13 /* LMSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSegmentView.m; sourceTree = "<group>"; };
+		0BE1DF602121583F00D83D13 /* LMHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMHeaderView.h; sourceTree = "<group>"; };
+		0BE1DF612121583F00D83D13 /* LMHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDB4E4C2119F2FE00F874FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDB4E642119F2FF00F874FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDB4E6F2119F2FF00F874FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDB4E462119F2FD00F874FC = {
+			isa = PBXGroup;
+			children = (
+				0BDB4E512119F2FE00F874FC /* LMComposeView */,
+				0BDB4E6A2119F2FF00F874FC /* LMComposeViewTests */,
+				0BDB4E752119F2FF00F874FC /* LMComposeViewUITests */,
+				0BDB4E502119F2FE00F874FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BDB4E502119F2FE00F874FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB4E4F2119F2FE00F874FC /* LMComposeView.app */,
+				0BDB4E672119F2FF00F874FC /* LMComposeViewTests.xctest */,
+				0BDB4E722119F2FF00F874FC /* LMComposeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BDB4E512119F2FE00F874FC /* LMComposeView */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB4E522119F2FE00F874FC /* AppDelegate.h */,
+				0BDB4E532119F2FE00F874FC /* AppDelegate.m */,
+				0BDB4E552119F2FE00F874FC /* ViewController.h */,
+				0BDB4E562119F2FE00F874FC /* ViewController.m */,
+				0BDB4E842119F32900F874FC /* DemoController.h */,
+				0BDB4E852119F32900F874FC /* DemoController.m */,
+				0BE1DF5F211EF88400D83D13 /* LMComposeView */,
+				0BDB4E8A2119F5BD00F874FC /* LMTableView.h */,
+				0BDB4E8B2119F5BD00F874FC /* LMTableView.m */,
+				0BDB4E8D2119F5E200F874FC /* LMCollectionView.h */,
+				0BDB4E8E2119F5E200F874FC /* LMCollectionView.m */,
+				0BE1DF602121583F00D83D13 /* LMHeaderView.h */,
+				0BE1DF612121583F00D83D13 /* LMHeaderView.m */,
+				0BDB4E582119F2FE00F874FC /* Main.storyboard */,
+				0BDB4E5B2119F2FF00F874FC /* Assets.xcassets */,
+				0BDB4E5D2119F2FF00F874FC /* LaunchScreen.storyboard */,
+				0BDB4E602119F2FF00F874FC /* Info.plist */,
+				0BDB4E612119F2FF00F874FC /* main.m */,
+			);
+			path = LMComposeView;
+			sourceTree = "<group>";
+		};
+		0BDB4E6A2119F2FF00F874FC /* LMComposeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB4E6B2119F2FF00F874FC /* LMComposeViewTests.m */,
+				0BDB4E6D2119F2FF00F874FC /* Info.plist */,
+			);
+			path = LMComposeViewTests;
+			sourceTree = "<group>";
+		};
+		0BDB4E752119F2FF00F874FC /* LMComposeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB4E762119F2FF00F874FC /* LMComposeViewUITests.m */,
+				0BDB4E782119F2FF00F874FC /* Info.plist */,
+			);
+			path = LMComposeViewUITests;
+			sourceTree = "<group>";
+		};
+		0BE1DF5F211EF88400D83D13 /* LMComposeView */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB4E94211A009200F874FC /* UIView+LMViewHelper.h */,
+				0BDB4E93211A009100F874FC /* UIView+LMViewHelper.m */,
+				0BE1DF5C211EF07700D83D13 /* LMSegmentView.h */,
+				0BE1DF5D211EF07700D83D13 /* LMSegmentView.m */,
+				0BDB4E872119F40100F874FC /* LMComposeView.h */,
+				0BDB4E882119F40100F874FC /* LMComposeView.m */,
+			);
+			path = LMComposeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BDB4E4E2119F2FE00F874FC /* LMComposeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDB4E7B2119F2FF00F874FC /* Build configuration list for PBXNativeTarget "LMComposeView" */;
+			buildPhases = (
+				0BDB4E4B2119F2FE00F874FC /* Sources */,
+				0BDB4E4C2119F2FE00F874FC /* Frameworks */,
+				0BDB4E4D2119F2FE00F874FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMComposeView;
+			productName = LMComposeView;
+			productReference = 0BDB4E4F2119F2FE00F874FC /* LMComposeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BDB4E662119F2FF00F874FC /* LMComposeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDB4E7E2119F2FF00F874FC /* Build configuration list for PBXNativeTarget "LMComposeViewTests" */;
+			buildPhases = (
+				0BDB4E632119F2FF00F874FC /* Sources */,
+				0BDB4E642119F2FF00F874FC /* Frameworks */,
+				0BDB4E652119F2FF00F874FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BDB4E692119F2FF00F874FC /* PBXTargetDependency */,
+			);
+			name = LMComposeViewTests;
+			productName = LMComposeViewTests;
+			productReference = 0BDB4E672119F2FF00F874FC /* LMComposeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BDB4E712119F2FF00F874FC /* LMComposeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDB4E812119F2FF00F874FC /* Build configuration list for PBXNativeTarget "LMComposeViewUITests" */;
+			buildPhases = (
+				0BDB4E6E2119F2FF00F874FC /* Sources */,
+				0BDB4E6F2119F2FF00F874FC /* Frameworks */,
+				0BDB4E702119F2FF00F874FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BDB4E742119F2FF00F874FC /* PBXTargetDependency */,
+			);
+			name = LMComposeViewUITests;
+			productName = LMComposeViewUITests;
+			productReference = 0BDB4E722119F2FF00F874FC /* LMComposeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BDB4E472119F2FD00F874FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LiMing;
+				TargetAttributes = {
+					0BDB4E4E2119F2FE00F874FC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					0BDB4E662119F2FF00F874FC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 0BDB4E4E2119F2FE00F874FC;
+					};
+					0BDB4E712119F2FF00F874FC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 0BDB4E4E2119F2FE00F874FC;
+					};
+				};
+			};
+			buildConfigurationList = 0BDB4E4A2119F2FE00F874FC /* Build configuration list for PBXProject "LMComposeView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BDB4E462119F2FD00F874FC;
+			productRefGroup = 0BDB4E502119F2FE00F874FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BDB4E4E2119F2FE00F874FC /* LMComposeView */,
+				0BDB4E662119F2FF00F874FC /* LMComposeViewTests */,
+				0BDB4E712119F2FF00F874FC /* LMComposeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BDB4E4D2119F2FE00F874FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDB4E5F2119F2FF00F874FC /* LaunchScreen.storyboard in Resources */,
+				0BDB4E5C2119F2FF00F874FC /* Assets.xcassets in Resources */,
+				0BDB4E5A2119F2FE00F874FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDB4E652119F2FF00F874FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDB4E702119F2FF00F874FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDB4E4B2119F2FE00F874FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDB4E8C2119F5BD00F874FC /* LMTableView.m in Sources */,
+				0BDB4E862119F32900F874FC /* DemoController.m in Sources */,
+				0BDB4E572119F2FE00F874FC /* ViewController.m in Sources */,
+				0BDB4E95211A009200F874FC /* UIView+LMViewHelper.m in Sources */,
+				0BDB4E8F2119F5E200F874FC /* LMCollectionView.m in Sources */,
+				0BDB4E622119F2FF00F874FC /* main.m in Sources */,
+				0BE1DF5E211EF07700D83D13 /* LMSegmentView.m in Sources */,
+				0BDB4E892119F40100F874FC /* LMComposeView.m in Sources */,
+				0BE1DF622121583F00D83D13 /* LMHeaderView.m in Sources */,
+				0BDB4E542119F2FE00F874FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDB4E632119F2FF00F874FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDB4E6C2119F2FF00F874FC /* LMComposeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDB4E6E2119F2FF00F874FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDB4E772119F2FF00F874FC /* LMComposeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BDB4E692119F2FF00F874FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BDB4E4E2119F2FE00F874FC /* LMComposeView */;
+			targetProxy = 0BDB4E682119F2FF00F874FC /* PBXContainerItemProxy */;
+		};
+		0BDB4E742119F2FF00F874FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BDB4E4E2119F2FE00F874FC /* LMComposeView */;
+			targetProxy = 0BDB4E732119F2FF00F874FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BDB4E582119F2FE00F874FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BDB4E592119F2FE00F874FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BDB4E5D2119F2FF00F874FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BDB4E5E2119F2FF00F874FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BDB4E792119F2FF00F874FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BDB4E7A2119F2FF00F874FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BDB4E7C2119F2FF00F874FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953KLT6PD;
+				INFOPLIST_FILE = LMComposeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Owhat.LMComposeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BDB4E7D2119F2FF00F874FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953KLT6PD;
+				INFOPLIST_FILE = LMComposeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Owhat.LMComposeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BDB4E7F2119F2FF00F874FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953KLT6PD;
+				INFOPLIST_FILE = LMComposeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Owhat.LMComposeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMComposeView.app/LMComposeView";
+			};
+			name = Debug;
+		};
+		0BDB4E802119F2FF00F874FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953KLT6PD;
+				INFOPLIST_FILE = LMComposeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Owhat.LMComposeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMComposeView.app/LMComposeView";
+			};
+			name = Release;
+		};
+		0BDB4E822119F2FF00F874FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953KLT6PD;
+				INFOPLIST_FILE = LMComposeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Owhat.LMComposeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LMComposeView;
+			};
+			name = Debug;
+		};
+		0BDB4E832119F2FF00F874FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953KLT6PD;
+				INFOPLIST_FILE = LMComposeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Owhat.LMComposeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LMComposeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDB4E4A2119F2FE00F874FC /* Build configuration list for PBXProject "LMComposeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDB4E792119F2FF00F874FC /* Debug */,
+				0BDB4E7A2119F2FF00F874FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDB4E7B2119F2FF00F874FC /* Build configuration list for PBXNativeTarget "LMComposeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDB4E7C2119F2FF00F874FC /* Debug */,
+				0BDB4E7D2119F2FF00F874FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDB4E7E2119F2FF00F874FC /* Build configuration list for PBXNativeTarget "LMComposeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDB4E7F2119F2FF00F874FC /* Debug */,
+				0BDB4E802119F2FF00F874FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDB4E812119F2FF00F874FC /* Build configuration list for PBXNativeTarget "LMComposeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDB4E822119F2FF00F874FC /* Debug */,
+				0BDB4E832119F2FF00F874FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BDB4E472119F2FD00F874FC /* Project object */;
+}
