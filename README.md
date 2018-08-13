@@ -2,7 +2,7 @@
 
 [原理详细讲解地址](https://www.jianshu.com/p/02e361fcb1ca)
 
-你是否需要实现一个这种UITableView或UICollectionView(也可以是仅有其中一类)混合公用HeaderView的界面呢？大致效果如下方Demo动态图的效果：
+你是否需要实现一个这种UITableView或UICollectionView(也可以是仅有其中一类)混合公用HeaderView的界面呢？大致效果如下方Demo动态图的效果：<br>
 ![LMComposeViewDemoGif.gif](https://upload-images.jianshu.io/upload_images/1197929-a072197639798faa.gif?imageMogr2/auto-orient/strip)
 
 
